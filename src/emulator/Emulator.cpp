@@ -2,8 +2,6 @@
 
 #include "../components/Component.hpp"
 
-#include <vector>
-
 Emulator::Emulator(std::vector<Component *> components) {
   this->components = components;
 }

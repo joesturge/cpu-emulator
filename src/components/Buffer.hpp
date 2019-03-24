@@ -1,6 +1,7 @@
 #ifndef BUFFER_H
 #define BUFFER_H
 
+#include "../wire/Wire.hpp"
 #include "Component.hpp"
 
 class Buffer : public Component {

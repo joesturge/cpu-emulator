@@ -3,8 +3,8 @@
 #include "emulator/Emulator.hpp"
 #include "wire/Wire.hpp"
 
-#include <array>
 #include <iostream>
+#include <vector>
 
 int main() {
   std::vector<Component *> components;

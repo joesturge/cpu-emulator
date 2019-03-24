@@ -3,6 +3,8 @@
 
 #include "../components/Component.hpp"
 
+#include <vector>
+
 class Emulator {
 public:
   Emulator(std::vector<Component *> components);

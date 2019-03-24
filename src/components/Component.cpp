@@ -1,8 +1,6 @@
 #include "Component.hpp"
 #include "../wire/Wire.hpp"
 
-#include <vector>
-
 long Component::probe(unsigned pinNumber) {
   if (pinNumber < this->pins.size()) {
     return this->pins.at(pinNumber)->get();

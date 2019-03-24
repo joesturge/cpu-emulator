@@ -1,9 +1,4 @@
 #include "Buffer.hpp"
-#include "../wire/Wire.hpp"
-
-#include <iostream>
-
-#include <vector>
 
 Buffer::Buffer(Wire *data, Wire *output) {
   this->pins.push_back(data);
