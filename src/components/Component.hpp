@@ -10,9 +10,9 @@ public:
   virtual void clock() = 0;
   virtual void evaluateLogic() = 0;
   long probe(unsigned pinNumber);
+  void drive(unsigned pinNumber, long value);
 
 protected:
-  void drive(unsigned pinNumber, long value);
   std::vector<Wire *> pins;
 };
 
